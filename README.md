@@ -24,7 +24,7 @@ A modern, production-ready AI chat assistant built with React that provides an i
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/yourusername/ai-assistant-studio.git
+git clone https://github.com/AbishekSathiyan/AI_ChatBot_Assistant.git
 cd ai-assistant-studio
 npm install
 cp .env.example .env
