@@ -1,0 +1,74 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+out/
+*.local
+
+# Env files
+.env
+.env.*.local
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs and editors
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Expo / React Native
+.expo/
+.expo-shared/
+web-build/
+
+# Next.js / React
+.next/
+.cache/
+. next/cache/
+.next/*
+.next/cache/*
+
+# Storybook
+storybook-static/
+
+# Yarn / npm
+.yarn-integrity
+package-lock.json
+yarn.lock
+.pnp.*
+.pnp.js
+
+# TypeScript
+*.tsbuildinfo
+
+# Misc
+*.log
+*.tmp
