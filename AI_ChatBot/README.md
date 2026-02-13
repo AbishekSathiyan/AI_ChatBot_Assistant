@@ -1,18 +1,32 @@
-# React + Vite
+# AI_ChatBot_Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, production-ready AI chat assistant built with React that provides an intuitive interface for interacting with AI models. Features real-time streaming responses, code syntax highlighting, theme switching, and text-to-speech capabilities.
 
-Currently, two official plugins are available:
+# ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Real-time Streaming** - Watch responses appear word-by-word
+- **Code Highlighting** - Automatic detection and formatting of code blocks with copy/expand functionality
+- **Text-to-Speech** - Listen to AI responses with voice selection
+- **Dark/Light Theme** - Seamless theme switching with persistent preference
+- **Responsive Design** - Optimized for mobile, tablet, and desktop
+- **Suggestion Cards** - Quick-start prompts for common tasks
+- **Export Chat** - Save conversations as JSON
+- **Production Ready** - Built with error handling, retry logic, and environment configuration
 
-## React Compiler
+## 🚀 Tech Stack
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- React 18
+- TailwindCSS
+- Puter.ai API
+- Web Speech API (Text-to-Speech)
+- React Icons
 
-Note: This will impact Vite dev & build performances.
+## 📦 Installation
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/AbishekSathiyan/AI_ChatBot_Assistant.git
+cd ai-assistant-studio
+npm install
+cp .env.example .env
+# Add your Puter.ai API key to .env
+npm start
