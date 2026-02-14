@@ -908,7 +908,7 @@ function App() {
 
   const getApiStatusText = useCallback(() => {
     if (apiError) return "API Error";
-    if (apiHealth === "healthy") return "API Ready";
+    if (apiHealth === "healthy") return "AURA MIND";
     if (apiHealth === "unhealthy") return "API Unavailable";
     return "Connecting...";
   }, [apiError, apiHealth]);
@@ -1113,7 +1113,7 @@ function App() {
                   >
                     {ENV_CONFIG.ENVIRONMENT === "production"
                       ? "Production"
-                      : "Beta"}
+                      : "Aura Mind"}
                   </span>
                 </div>
                 <div className="flex items-center gap-1 sm:gap-2 mt-0.5">
@@ -1309,7 +1309,7 @@ function App() {
                   >
                     {isMobile
                       ? "Production-ready AI assistant for coding, debugging & optimization"
-                      : `Production-ready AI assistant powered by ${ENV_CONFIG.PUTER_MODEL} — ready to help with coding, debugging, optimization, and complex problem-solving.`}
+                      : `Production-ready AI assistant powered by Aura Mind— ready to help with coding, debugging, optimization, and complex problem-solving.`}
                   </p>
                 </div>
 
